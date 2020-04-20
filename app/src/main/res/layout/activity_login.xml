@@ -74,10 +74,12 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        android:background="@drawable/input_field"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,10 +88,12 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:background="@drawable/input_field"
+        android:hint="Password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,7 +102,7 @@
 
     <Button
         android:layout_width="240dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:text="LogIn"
         android:textAllCaps="false"
         android:background="@drawable/button"
