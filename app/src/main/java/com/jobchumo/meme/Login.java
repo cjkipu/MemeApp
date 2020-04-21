@@ -35,7 +35,7 @@ public class Login extends AppCompatActivity {
         String pas = passwo.getText().toString().trim();
 
         if (TextUtils.isEmpty(email) || TextUtils.isEmpty(pas)) {
-            Toast.makeText(Login.this, "Empty fields!! \n Please Enter all your details", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Login.this, "Empty fields!! \nPlease Enter all your details", Toast.LENGTH_SHORT).show();
             return;
         }
 

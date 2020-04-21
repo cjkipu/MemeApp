@@ -42,14 +42,14 @@ public class SignUp extends AppCompatActivity {
         String confirm = confpass.getText().toString().trim();
 
         if (TextUtils.isEmpty(emaill) || TextUtils.isEmpty(passwo) || TextUtils.isEmpty(confirm)){
-            Toast.makeText(SignUp.this, "Empty fields!! \n Please Enter all your details", Toast.LENGTH_SHORT).show();
+            Toast.makeText(SignUp.this, "Empty fields!! \nPlease Enter all your details", Toast.LENGTH_SHORT).show();
             return;
         }
         if (passwo.equals(confirm)){
 
         }
         else {
-            Toast.makeText(SignUp.this, "Passwords do not match!! \n Please try again", Toast.LENGTH_SHORT).show();
+            Toast.makeText(SignUp.this, "Passwords do not match!! \nPlease try again", Toast.LENGTH_SHORT).show();
             return;
         }
 
