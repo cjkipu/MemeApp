@@ -11,34 +11,32 @@
         android:id="@+id/textView2"
         android:layout_width="397dp"
         android:layout_height="43dp"
-        android:layout_marginLeft="20dp"
         android:fontFamily="@font/light"
         android:text="Don't have an account?"
         android:textColor="@color/grey"
-        android:textSize="25dp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998" />
+        app:layout_constraintVertical_bias="0.997" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="87dp"
         android:layout_height="32dp"
-        android:layout_marginLeft="25dp"
         android:fontFamily="@font/light"
+        android:onClick="Sign_up"
         android:text="Sign Up"
         android:textColor="@color/red"
-        android:textSize="25dp"
-        android:onClick="Sign_up"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintHorizontal_bias="0.681"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984" />
+        app:layout_constraintVertical_bias="0.983" />
 
     <TextView
         android:layout_width="329dp"
