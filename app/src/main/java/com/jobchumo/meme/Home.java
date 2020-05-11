@@ -23,6 +23,6 @@ public class Home extends AppCompatActivity {
 
     public void Sign_up(View view) {
         //finish();
-        startActivity(new Intent(Home.this, SignUp.class));
+        startActivity(new Intent(Home.this, Welcome.class));
     }
 }
